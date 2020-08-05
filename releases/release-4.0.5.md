@@ -20,8 +20,11 @@ TiDB version: 4.0.5
 + TiFlash
 
     - Support standard error code [#978](https://github.com/pingcap/tics/pull/978)
+    
 + TiKV
+
      - Define error code for errors [#8387](https://github.com/tikv/tikv/pull/8387)
+     
 ## Improvements
 
 + TiDB
@@ -79,8 +82,11 @@ TiDB version: 4.0.5
 
     - Fix the issue that TiFlash cannot start normally after upgrading from an old version if the name of the database or table contains special characters. [#971](https://github.com/pingcap/tics/pull/971)
     - Fix bug: tiflash can not exit if any exception is thrown during initialization [#953](https://github.com/pingcap/tics/pull/953)
+    
 + TiKV
+
     - Fix memory leak during scheduling [#8357](https://github.com/tikv/tikv/pull/8357)
+    
 ## Others
 
 + TiDB
