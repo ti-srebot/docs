@@ -40,8 +40,8 @@ TiDB version: 4.0.5
 + PD
 
     - Support scattering regions in stores with special engines (like TiFlash). [#2706](https://github.com/pingcap/pd/pull/2706)
-    - Support Region HTTP API to promote regions schedule by given key range [#2687](https://github.com/pingcap/pd/pull/2687)
-    - Improve the leader distribution after region scatter [#2684](https://github.com/pingcap/pd/pull/2684)
+    - Support Region HTTP API to promote regions schedule by given key range. [#2687](https://github.com/pingcap/pd/pull/2687)
+    - Improve the leader distribution after region scatter. [#2684](https://github.com/pingcap/pd/pull/2684)
     - Add more tests and logs for TSO request. [#2678](https://github.com/pingcap/pd/pull/2678)
     - Avoid invalid cache updates after the leader of a region has changed. [#2672](https://github.com/pingcap/pd/pull/2672)
 
@@ -76,7 +76,7 @@ TiDB version: 4.0.5
 + PD
 
     - Fix the bug that TSO request may fail at the time of leader changing. [#2666](https://github.com/pingcap/pd/pull/2666)
-    - Fix the issue that when enabling placement rules, sometimes region replicas cannot schedule to optimal [#2720](https://github.com/pingcap/pd/pull/2720)
+    - Fix the issue that when enabling placement rules, sometimes region replicas cannot schedule to optimal. [#2720](https://github.com/pingcap/pd/pull/2720)
 
 + TiFlash
 
