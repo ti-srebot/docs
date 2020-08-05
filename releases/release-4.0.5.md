@@ -63,6 +63,7 @@ TiDB version: 4.0.5
 + PD
 
     - Fix the bug that TSO request may fail at the time of leader changing. [#2666](https://github.com/pingcap/pd/pull/2666)
+    - Fix the issue that when enabling placement rules, sometimes region replicas cannot schedule to optimal. [#2720](https://github.com/pingcap/pd/pull/2720)
 
 + TiFlash
 
