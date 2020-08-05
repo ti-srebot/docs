@@ -31,6 +31,14 @@ TiDB version: 4.0.5
     - Support cancel before RPC response return. [#18580](https://github.com/pingcap/tidb/pull/18580)
     - Add HTTP API to generate TiDB metric profile. [#18531](https://github.com/pingcap/tidb/pull/18531)
     - Fix the partition table issue in table scatter API. [#17863](https://github.com/pingcap/tidb/pull/17863)
+    
++ PD
+
+    - Support scattering regions in stores with special engines (like TiFlash). [#2706](https://github.com/pingcap/pd/pull/2706)
+    - Support Region HTTP API to promote regions schedule by given key range [#2687](https://github.com/pingcap/pd/pull/2687)
+    - Improve the leader distribution after region scatter [#2684](https://github.com/pingcap/pd/pull/2684)
+    - Add more tests and logs for TSO request. [#2678](https://github.com/pingcap/pd/pull/2678)
+    - Avoid invalid cache updates after the leader of a region has changed. [#2672](https://github.com/pingcap/pd/pull/2672)
 
 + TiFlash
 
@@ -89,11 +97,3 @@ TiDB version: 4.0.5
 
     - Define error code for errors [#8387](https://github.com/tikv/tikv/pull/8387)
     - Fix memory leak during scheduling [#8357](https://github.com/tikv/tikv/pull/8357)
-
-+ PD
-
-    - Support scattering regions in stores with special engines (like TiFlash). [#2706](https://github.com/pingcap/pd/pull/2706)
-    - Support Region HTTP API to promote regions schedule by given key range [#2687](https://github.com/pingcap/pd/pull/2687)
-    - Improve the leader distribution after region scatter [#2684](https://github.com/pingcap/pd/pull/2684)
-    - Add more tests and logs for TSO request. [#2678](https://github.com/pingcap/pd/pull/2678)
-    - Avoid invalid cache updates after the leader of a region has changed. [#2672](https://github.com/pingcap/pd/pull/2672)
